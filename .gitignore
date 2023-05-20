@@ -1,0 +1,57 @@
+# Mac OS
+.DS_Store
+
+# Laravel specific
+.env
+.env.backup
+.env.*.php
+.env.*.php.backup
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build Files
+/public/storage/
+/public/hot/
+/storage/*.key
+/storage/logs/
+/storage/framework/
+/storage/temp/
+/storage/app/public/
+/public/css/
+/public/js/
+
+# Other Generated Files
+/public/web.config
+/public/mix-manifest.json
+/public/hashed-*
+/public/hot
+/public/*.map
+
+# IDE-specific files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing files
+/phpunit.xml
+/phpunit.xml.*
+/tests/
+
+# Laravel Passport
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Laravel Horizon
+/storage/nova-*
+
+# Laravel Telescope
+/storage/app/telescope/*.json
+/storage/app/telescope/*.log
+/storage/app/telescope/*.sql
